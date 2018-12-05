@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<style type="text/css">
+body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=T6YAZ1BMMkN7HVM5NG0q0bo4"></script>
+</head>
+<body>
+<div id="allmap"></div>
+</body>
+</html>
+<script type="text/javascript">
+	var map = new BMap.Map("allmap");
+	map.addControl(new BMap.NavigationControl()); 
+	map.addControl(new BMap.MapTypeControl({mapTypes:[BMAP_NORMAL_MAP,BMAP_HYBRID_MAP]})); 
+	//map.centerAndZoom("广州",12);    // 初始化地图,设置城市和地图级别。
+	map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+	map.enableContinuousZoom();     //启用地图惯性拖拽，默认禁用
+	var myGeo = new BMap.Geocoder();
+	// 将地址解析结果显示在地图上，并调整地图视野
+	myGeo.getPoint("五羊邨寺右一马路泰恒大厦21楼", function(point){
+		if (point) {
+			map.centerAndZoom(point, 18);
+			var marker = new BMap.Marker(point);  // 创建标注
+			map.addOverlay(marker);              // 将标注添加到地图中
+			marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+		}
+	}, "广州");
+</script>

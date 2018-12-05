@@ -1,0 +1,173 @@
+/*
+â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€“â€“â€“â€“â€“â€“
+Theme typography
+â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€”â€“â€“â€“â€“â€“â€“
+*/
+
+body{
+	font:12px "Helvetica Neue",Arial,Helvetica,sans-serif;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust:none;
+	line-height:1.6em;
+	color:#333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Helvetica Neue",Arial,Helvetica,sans-serif;
+	line-height:1.5em;
+	font-weight:bold;
+	margin-bottom:15px;
+	/*color:#2d2d2d;*/
+	color:#fff;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 {
+	font-size: 24px;
+	font-family: 微软雅黑;
+}
+h2 {
+	font-size: 22px;
+	font-family: 微软雅黑;
+}
+h3 {
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+h4 {
+	font-size: 18px;
+	font-family: 微软雅黑;
+}
+h5 {
+	font-size: 16px;
+	font-family: 微软雅黑;
+}
+h6 {
+	font-size: 14px;
+	font-family: 宋体;
+}
+
+p {
+	margin:0 0 15px 0;
+}
+
+
+blockquote ,p.author-company, ul.tweet_list li, form#searchForm input#s {
+	font-size: 14px;
+	font-family:宋体, "Droid Serif", "Merriweather", "Georgia", "Times New Roman";
+	font-style: normal;
+}
+
+	blockquote {
+	margin:0 0 20px 0;
+	padding: 0 0 0 33px; 
+	background:url(../images/testimonial/quote.png) no-repeat 0% 4px;
+	color:#777;
+	}
+	
+	blockquote cite { display: block; font-size: 12px; color: #555; text-align:right; font-style:normal;}
+	blockquote cite:before { content: "\2014 \0020"; }
+	blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555;  }
+	
+strong {
+	font-weight: bold;
+	font-size: 15px;
+	font-family: 宋体;
+	color: #333333;
+}
+
+.logo h2, footer .logo h2 {
+	font-size:14px;
+	font-style:italic;
+	font-weight:normal;
+}
+
+.left-pullquote {
+	display:block;
+	font-family:Georgia, Arial, sans-serif;font-size: 14px; line-height: 1.5em; color: #777; font-style: italic;
+	border-left:2px solid #ddd;
+	padding-left:10px;
+}
+
+.right-pullquote {
+	display:block;
+	font-family:Georgia, Arial, sans-serif;font-size: 14px; line-height: 1.5em; color: #777; font-style: italic;
+	border-right:2px solid #ddd;
+	padding-right:10px;
+}
+
+/* blog
+=======================================*/
+ #body_content .post-title h4 a {
+	font-size:22px;
+}
+
+.post-meta span a {
+	font-family:Georgia, Arial, sans-serif;
+	font-style:italic;
+	color:#777;
+}
+
+
+/* footer
+========================================*/
+
+footer .logo h2 {
+	color:#efefef;
+}
+
+.footer_info {
+	font-size:12px;
+}
+
+article h2 {
+	font-family:Georgia, Arial, sans-serif;
+	font-style:italic;
+}
+
+
+/* #Lists
+================================================== */
+
+/* general */
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 15px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	li { line-height: 1.5em; margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	li p { line-height: 1.5em; }
+	
+
+/* alignment */
+.center {
+	text-align:center;
+}
+
+.alignright {
+	text-align:right;
+}
+
+/* position */
+.relative{
+	position:relative;
+}
+
+.absolute{
+	position:absolute;
+}
+
+/*------------------- preformated text, code --------------------*/
+code, pre {
+	border:1px solid #ddd;
+  	background:#fefefe;
+  	padding:7px 10px;
+	font-size:11px;
+  	display:block;
+  	color:#858585;
+  	margin-bottom:10px;
+	border-left:5px solid #ddd;
+	overflow:hidden;
+}

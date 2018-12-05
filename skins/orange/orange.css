@@ -1,0 +1,208 @@
+/* Widescreen responsive HTML template */
+/* by iWebStudio */
+
+/* -------------------------------------------------- 
+   Theme skin : default / orange
+-----------------------------------------------------
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+
+a, ul.cat li a:hover {
+	color: #4AA6F7;
+	text-decoration: none;
+}
+
+
+a.hover:hover {
+	color: #4AA6F7;
+}
+
+a.text_link {
+
+}
+
+.top {
+
+}
+
+
+
+
+
+#featured_area,#inner_headline {
+	background:#4AA6F7;
+}
+
+#featured_area2,#inner_headline {
+	background:#4AA6F7;
+}
+
+#featured_area3,#inner_headline {
+	background: #f5f5f5;
+}
+
+#featured_area4,#inner_headline {
+	background: #fff;
+}
+
+#featured_area5,#inner_headline {
+	background: #000;
+}
+
+.ch-info {
+	background:#4AA6F7;
+}
+
+
+.bottom {
+
+}
+
+.container {
+
+}
+
+/* navigation */
+
+nav ul li.selected {
+	border-top:#4AA6F7 solid 3px;
+}
+
+nav#header-nav > ul > li:hover > a,
+nav#header-nav > ul > li > a:hover{
+	border-color:#4AA6F7;
+	color:#4AA6F7;
+}
+nav#header-nav ul ul li a:hover{
+	color: #4AA6F7;
+}
+
+
+/* flexslider */
+.flex-control-nav li a {
+	background: url(images/bg_control_nav.png) no-repeat; 
+}
+
+/* pagination
+=============================== */
+.pagination span.current, .pagination a:hover{
+	background:#4AA6F7;
+}
+
+/* Validation form
+=============================== */
+.validation {
+	color:#4AA6F7;
+}
+
+/* Portfolio
+====================*/
+#filter a:active, #filter .active  a, #filter a:hover{
+	color:#4AA6F7;
+	border-bottom:3px solid #4AA6F7;
+}
+
+#stage h5 a:hover{
+	color:#4AA6F7;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#filter a:active, #filter .active  a, #filter a:hover{
+		color:#000000;
+		border-bottom:none;
+		background:#4AA6F7;
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	#filter a:active, #filter .active  a, #filter a:hover{
+		color:#000000;
+		border-bottom:none;
+		background:#4AA6F7;
+	}
+}
+/* pricing table
+====================*/
+ul.pricing li.pricing-price{
+	background-color:#4AA6F7;
+	border-bottom:1px solid #4AA6F7;
+}
+
+/* Element
+====================*/
+/* toggle */
+.toggle h6.title span.title_content:hover {
+	background-color: #4AA6F7;
+	color:#fff;
+}
+
+.toggle h6.active span.title_content{
+	color: #fff;
+	background-color: #4AA6F7;
+	border:1px solid #eee;
+}
+#accordion h6:hover {
+	background-color: #4AA6F7;
+	color:#fff;
+}
+
+#accordion h6.current {
+	background-color: #4AA6F7;
+	color:#fff;
+}
+
+table tr td.highlight{
+	background-color:#4AA6F7;
+}
+
+/* footer */
+footer a.hover:hover{
+	color: #4AA6F7;
+}
+
+
+footer ul li a:hover{
+	color: #4AA6F7;
+}
+
+
+
+/* sub menu */
+#nav ul a:hover { 
+	background: #f26531; 
+}
+
+
+/* -----------------------------------------
+   Home page
+----------------------------------------- */
+
+
+/* -----------------------------------------
+   Inner page : blog
+----------------------------------------- */
+ .blog-date .month-year  {background-color:#4AA6F7; }
+ 
+ #body_content .post-title h4 a:hover {
+	color:#4AA6F7;
+}
+
+.post-meta a:hover {
+	color:#4AA6F7;
+}
+
+
+/* -----------------------------------------
+   Inner page : portfolio
+----------------------------------------- */
+
+
+/* -----------------------------------------
+   Inner page : contact
+----------------------------------------- */
